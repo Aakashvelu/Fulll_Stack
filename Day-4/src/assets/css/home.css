@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* .background_home{
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/599/667/668/anime-landscape-library-nature-hd-wallpaper-f8964df890800c28607c410ea802a41a.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: absolute;
+  opacity: 99%;
+} */
+.caro-first{
+  /* padding: 25%; */
+  margin-top: 66vh;
+  position: absolute;
+  /* background-color: #333; */
+}
+/* .home-head{
+  background-color: antiquewhite;
+} */
+.custom-slider-home{
+    width: 800px;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.g-image{
+  width: 50px;
+  height: 50px;
+  margin-left: 40%;
+  margin-top: 25px;
+}
+.aside-home{
+  gap: 50px;
+  margin-left: 550px;
+  margin-top: 25px;
+}
+.ibm-image{
+  width: 95px;
+  height: 85x;
+  margin-left: 4%;
+  margin-top: 25px;
+}
+.footer-container {
+    /* background-color: #333; */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin-top: 100%; */
+  }
+  .hero{
+    position: relative;
+    text-align: center;
+    color:#343a40;
+    padding: 5%;
+    /* background-color: bisque; */
+    position: relative;
+    margin-left: 27%;
+    width: 40%;
+
+  }
+  .home_p{
+    font-weight: bolder;
+    font-style: oblique;
+    color: black;
+
+  }
+  .home_content1{
+    padding: 60px;
+    margin-left: 50px;
+    width: 450px;
+    /* background-color: antiquewhite; */
+    margin: 0.5%;
+    color: black;
+  }
+  .team_wrapper_p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+  }
+  .team_wrapper{
+    padding: 40px;
+    background-color: #e7e5e5;
+    
+  }
+  .home_button{
+    margin: 2.5%;
+    padding: 7%;
+    border-radius: 6.8px;
+    background-color: white;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    justify-content: center;
+    margin-left: 41%;
+    display: table-row;
+    transition: transform 0.5s ease;
+    background-color: #343a40;
+    
+  }
+  .home_button:hover {
+    /* background-color: #ffc107; */
+    background-color: #343a40;
+    transform: scale(1.1);
+    /* tra */
+  }
+  .team_wrapper{
+    margin-top: 2rem;
+    padding: 58px;
+  }
+  .testimonial_wrapper{
+    display: flex;
+    margin-left: 50px;
+  }
+  .course-home-but{
+   
+    margin: 2.5%;
+    padding: 7%;
+    border-radius: 6.8px;
+    background-color: white;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    justify-content: center;
+    margin-left: 12%;
+    display: table-row;
+    background-color: #343a40;
+    transition: transform 0.5s ease;
+    position: relative;
+    
+  }
+  .course-home-but:hover {
+    /* background-color: #ffc107; */
+    background-color: #343a40;
+    transform: scale(1.1);
+    /* tra */
+  }
+  .home_button-but{
+    justify-content: center;
+    background-color: #343a40;
+    
+  }
+ 
