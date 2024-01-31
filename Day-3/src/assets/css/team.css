@@ -1,0 +1,19 @@
+.main-team {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('your-background-image.jpg') center/cover no-repeat; 
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Additional styles for your content if needed */

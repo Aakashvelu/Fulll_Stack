@@ -1,0 +1,50 @@
+
+.courses-list {
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-left: 50px;
+    padding: 100px;
+    
+  }
+  
+  .course-card {
+    /* margin-right: 85px;  */
+    color: black;
+    width: 100%;
+    /* padding-left: 50vw; */
+    /* margin-left: 50px; */
+    
+  }
+  .course-card-p{
+    color: black;
+    font-size: 13px;
+  }
+  .but-course-enqiry {
+    margin-top: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 95px;
+  }
+  
+  .but-course-enqiry {
+    background-color: #007bff;
+  }
+  .but-course-enroll {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .but-course-enroll:hover {
+    background-color: #0056b3;
+  }

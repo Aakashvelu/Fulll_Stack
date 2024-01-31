@@ -1,0 +1,59 @@
+ViewAllCourses.css
+.view-all-courses-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* h1 {
+    color: #3498db;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  } */
+  
+  .courses-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  } */
+  
+  .but-course{
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .but-course:hover {
+    background-color: #2980b9;
+  }
+  
