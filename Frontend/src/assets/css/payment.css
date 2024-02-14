@@ -1,0 +1,53 @@
+/* Your existing styles */
+
+.payment-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .payment-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details_payment,
+  .payment-gateway_payment,
+  .review-payment_payment {
+    margin-bottom: 20px;
+  }
+  
+  .payment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .payment-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .payment-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add any additional styling as needed */
+  

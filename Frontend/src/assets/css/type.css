@@ -1,0 +1,26 @@
+/* TypingAnimation.css */
+.typing-animation-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #3498db;
+    overflow: hidden; /* Hide overflowing characters */
+    border-right: 2px solid #3498db; /* Cursor effect */
+    white-space: nowrap; /* Prevent line break */
+    margin: 0;
+    display: inline-block;
+    animation: cursorBlink 1s infinite; /* Cursor blink animation */
+  }
+  
+  @keyframes cursorBlink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #3498db;
+    }
+  }
+  
